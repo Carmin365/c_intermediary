@@ -4,7 +4,7 @@
 int main() {
     int ptr = (int) malloc(10 * sizeof(int));
     
-    available(ptr);
+    free(ptr);
 
     return 0;
 }
